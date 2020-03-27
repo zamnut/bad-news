@@ -17,6 +17,7 @@ module.exports = config => {
       esm: {
         nodeResolve: true,
       },
+      failOnEmptyTestSuite: false,
       // you can overwrite/extend the config further
     }),
   );
